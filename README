@@ -1,0 +1,5 @@
+Test application to simulate thread locking issues where external hardware
+sends data that is stored and displayed.  This is a test application to 
+evaluate Typemock Racer (http://www.typemock.com/learn_about_typemock_racer.php)
+
+This code is very rough evaluation code and will change lots.

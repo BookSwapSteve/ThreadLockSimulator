@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLockSimulator", "TypeMockRacerTest\ThreadLockSimulator.csproj", "{D5315D78-E316-4B8A-8B11-28B9A8B632BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLockSimulator.Tests", "TypeMockRacerTest.Tests\ThreadLockSimulator.Tests.csproj", "{93E3588B-F000-4B64-B703-911AB952E7C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5315D78-E316-4B8A-8B11-28B9A8B632BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5315D78-E316-4B8A-8B11-28B9A8B632BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5315D78-E316-4B8A-8B11-28B9A8B632BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5315D78-E316-4B8A-8B11-28B9A8B632BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E3588B-F000-4B64-B703-911AB952E7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E3588B-F000-4B64-B703-911AB952E7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E3588B-F000-4B64-B703-911AB952E7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E3588B-F000-4B64-B703-911AB952E7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
