@@ -34,6 +34,20 @@ namespace ThreadLockSimulator.Tests
             // already have acquired the lock.
         }
 
+        [Test]
+        public void TestUsingThreadTest()
+        {
+            FakeExternalDevice device = new FakeExternalDevice();
+            device.Open();
+
+            DeviceManager manager = new DeviceManager(new[] { device });
+
+            ThreadTest
+                .AddThreadAction(device.TriggerDataReceived)
+                .AddThreadAction(manager.EnableCooling)
+                .Start();
+        }
+
         /// <summary>
         /// This test should fail with thread timeouts due to locking but it's 
         /// not reliable. 
